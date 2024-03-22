@@ -61,7 +61,7 @@ public class Sketch extends PApplet {
     translate(300, 300); 
 
     // draw petals
-    for (int i = 0; i < 9; i++) {
+    for (int i = 0; i < 5; i++) {
       rotate(PI / 4); // Rotate by 45 degrees for each petal
       ellipse(0, 0, 125, 20); // Draw petal
     }
